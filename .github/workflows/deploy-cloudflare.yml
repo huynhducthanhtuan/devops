@@ -1,4 +1,4 @@
-name: Deploy Frontend to Cloudflare Pages
+name: Deploy React app to Cloudflare Pages
 
 on:
   push:
