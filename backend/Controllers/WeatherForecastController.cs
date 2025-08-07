@@ -29,5 +29,16 @@ namespace backend.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("{id}", Name = "GetWeatherForecastById")]
+        public WeatherForecast GetWeatherForecast(string id)
+        {
+            return new WeatherForecast()
+            {
+                Date = DateOnly.FromDateTime(DateTime.Now),
+                TemperatureC = Random.Shared.Next(-20, 55),
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            };
+        }
     }
 }
