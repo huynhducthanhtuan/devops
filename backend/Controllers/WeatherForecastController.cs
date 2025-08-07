@@ -30,8 +30,8 @@ namespace backend.Controllers
             .ToArray();
         }
 
-        [HttpGet("{id}", Name = "GetWeatherForecastById")]
-        public WeatherForecast GetWeatherForecast(string id)
+        [HttpGet("{location}", Name = "GetWeatherForecastByLocation")]
+        public WeatherForecast GetWeatherForecast(string location)
         {
             return new WeatherForecast()
             {
