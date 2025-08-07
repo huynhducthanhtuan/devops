@@ -35,7 +35,7 @@ namespace backend.Controllers
         {
             return new WeatherForecast()
             {
-                Date = DateOnly.FromDateTime(DateTime.Now),
+                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(1)),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             };
