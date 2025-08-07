@@ -8,4 +8,4 @@ This repository is a DevOps approach project
 
 ## Day 2:
 
-✅Dockerize .NET app and deploy to Render https://devops-api.onrender.com/swagger/index.html
+❌Dockerize .NET app and deploy to Render https://devops-api.onrender.com/swagger/index.html
