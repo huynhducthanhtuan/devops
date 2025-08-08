@@ -1,0 +1,9 @@
+{
+  "name": "@tuanhuynh734623/helloworld",
+  "version": "1.0.0",
+  "description": "Hello World package",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "author": "Tuan Huynh"
+}
