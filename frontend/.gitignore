@@ -2,6 +2,7 @@
 
 # development
 /.vs
+.env
 
 # dependencies
 /node_modules

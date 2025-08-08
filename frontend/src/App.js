@@ -6,6 +6,13 @@ import { useEffect } from "react";
 function App() {
   useEffect(() => {
     helloWorld();
+
+    const connectAPI = async () => {
+      const result = await fetch(`${process.env.REACT_APP_API_URL}/WeatherForecast`);
+      const data = await result.json();
+      console.log("Data from API: ", data);
+    };
+    connectAPI();
   }, []);
 
   return (
