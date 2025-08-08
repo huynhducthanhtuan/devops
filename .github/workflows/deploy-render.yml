@@ -5,10 +5,10 @@ on:
     branches:
       - master
     paths-ignore:
-      - 'README.md'
-      - 'LICENSE'
-      - 'backend/.gitignore'
-      - 'frontend/.gitignore'
+      - "README.md"
+      - "LICENSE"
+      - "backend/.gitignore"
+      - "frontend/.gitignore"
 
 jobs:
   deploy-to-render:
