@@ -14,4 +14,5 @@ This repository is a DevOps approach project
 
 ## Day 3:
 
-✅Publish a sample npm package to npmjs.com [@tuanhuynh734623/helloworld@1.0.0](https://www.npmjs.com/package/@tuanhuynh734623/helloworld)
+✅Publish a sample npm package to npmjs.com [@tuanhuynh734623/helloworld@1.0.0](https://www.npmjs.com/package/@tuanhuynh734623/helloworld)</br>
+✅Publish a sample .NET package to nuget.org [TuanHuynhHelloWorld.3.0.0](https://www.nuget.org/packages/TuanHuynhHelloWorld/)
