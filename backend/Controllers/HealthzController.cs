@@ -7,6 +7,6 @@ namespace backend.Controllers
     public class HealthzController : ControllerBase
     {
         [HttpGet("/healthz")]
-        public IActionResult Health() => Ok("Healthy");
+        public IActionResult Health() => Ok();
     }
 }
