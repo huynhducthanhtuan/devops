@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>TuanHuynhHelloWorld</PackageId>
+    <Version>3.0.0</Version>
+    <Authors>Tuan Huynh</Authors>
+    <Description>A simple hello world library</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using TuanHuynh;
 
 namespace backend.Controllers
 {
@@ -12,10 +13,12 @@ namespace backend.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly HelloWorld _helloWorld;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, HelloWorld helloWorld)
         {
             _logger = logger;
+            _helloWorld = new HelloWorld();
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
@@ -39,6 +42,12 @@ namespace backend.Controllers
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             };
+        }
+
+        [HttpGet("HelloWorld")]
+        public IActionResult HelloWorld()
+        {
+            return Ok(_helloWorld.HelloWorldStr);
         }
     }
 }
