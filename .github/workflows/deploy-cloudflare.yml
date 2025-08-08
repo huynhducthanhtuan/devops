@@ -5,10 +5,10 @@ on:
     branches:
       - master
     paths-ignore:
-      - 'README.md'
-      - 'LICENSE'
-      - 'backend/.gitignore'
-      - 'frontend/.gitignore'
+      - "README.md"
+      - "LICENSE"
+      - "backend/.gitignore"
+      - "frontend/.gitignore"
 
 jobs:
   deploy:
@@ -26,6 +26,8 @@ jobs:
 
       - name: Build frontend
         run: npm run build
+        env:
+          REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }}
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
