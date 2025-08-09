@@ -19,4 +19,6 @@ This repository is a DevOps approach project
 
 ## Day 4:
 
-✅Refactor React app from JavaScript to TypeScript
+✅Refactor React app from JavaScript to TypeScript</br>
+✅Deploy React app to Firebase Hosting https://devops-web-hdttuan.web.app</br>
+✅Setup CI/CD with GitHub Actions to auto-deploy React app to Firebase Hosting
