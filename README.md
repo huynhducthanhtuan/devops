@@ -9,8 +9,8 @@ This repository is a DevOps approach project
 ## Day 2:
 
 ✅Dockerize .NET app and deploy to Render https://devops-api.onrender.com/swagger/index.html</br>
-✅Setup CI/CD with GitHub Actions to auto-deploy .NET app to Render [![Deploy .NET API to Render](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-render.yml/badge.svg)](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-render.yml)</br>
-✅Setup CI/CD with GitHub Actions to auto-deploy React app to Cloudflare Pages [![Deploy React app to Cloudflare Pages](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-cloudflare.yml/badge.svg)](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-cloudflare.yml)
+✅Setup CI/CD auto deploy .NET app to Render [![Deploy .NET API to Render](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-render.yml/badge.svg)](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-render.yml)</br>
+✅Setup CI/CD auto deploy React app to Cloudflare Pages [![Deploy React app to Cloudflare Pages](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-cloudflare.yml/badge.svg)](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-cloudflare.yml)
 
 ## Day 3:
 
@@ -21,7 +21,7 @@ This repository is a DevOps approach project
 
 ✅Refactor React app from JavaScript to TypeScript</br>
 ✅Deploy React app to Firebase Hosting https://devops-web-hdttuan.web.app</br>
-✅Setup CI/CD with GitHub Actions to auto-deploy React app to Firebase Hosting [![Deploy React app to Firebase Hosting](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-firebase.yml/badge.svg)](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-firebase.yml)
+✅Setup CI/CD auto deploy React app to Firebase Hosting [![Deploy React app to Firebase Hosting](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-firebase.yml/badge.svg)](https://github.com/huynhducthanhtuan/devops/actions/workflows/deploy-firebase.yml)
 
 ## 📦 Project Structure
 
