@@ -4,11 +4,8 @@ on:
   push:
     branches:
       - master
-    paths-ignore:
-      - "README.md"
-      - "LICENSE"
-      - "backend/.gitignore"
-      - "frontend/.gitignore"
+    paths:
+      - "backend/**"
 
 jobs:
   deploy-to-render:
