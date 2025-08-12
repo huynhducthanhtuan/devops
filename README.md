@@ -25,67 +25,81 @@ This repository is a DevOps approach project
 
 ## 📦 Project Structure
 
-```text
-├── .github
-    └── workflows
-    │   ├── deploy-cloudflare.yml
-    │   ├── deploy-firebase.yml
-    │   └── deploy-render.yml
-├── LICENSE
-├── README.md
-├── backend
-    ├── .dockerignore
-    ├── .gitignore
-    ├── Controllers
-    │   ├── HealthzController.cs
-    │   └── WeatherForecastController.cs
-    ├── DTO
-    │   └── WeatherForecast.cs
-    ├── Dockerfile
-    ├── Program.cs
-    ├── Properties
-    │   └── launchSettings.json
-    ├── appsettings.json
-    ├── backend.csproj
-    ├── backend.csproj.user
-    ├── backend.http
-    └── backend.sln
-├── frontend
-    ├── .env.example
-    ├── .firebaserc
-    ├── .gitignore
-    ├── .prettierignore
-    ├── .prettierrc
-    ├── custom.d.ts
-    ├── firebase.json
-    ├── package-lock.json
-    ├── package.json
-    ├── public
-    │   ├── favicon.ico
-    │   ├── index.html
-    │   ├── logo192.png
-    │   ├── logo512.png
-    │   ├── manifest.json
-    │   └── robots.txt
-    ├── src
-    │   ├── App.css
-    │   ├── App.test.ts
-    │   ├── App.tsx
-    │   ├── index.css
-    │   ├── index.tsx
-    │   ├── logo.svg
-    │   ├── reportWebVitals.ts
-    │   └── setupTests.ts
-    └── tsconfig.json
-├── npm
-    └── helloworld
-    │   ├── README.md
-    │   ├── index.js
-    │   └── package.json
-└── nuget
-    └── TuanHuynhHelloWorld
-        ├── .gitignore
-        ├── README.md
-        ├── TuanHuynhHelloWorld.cs
-        └── TuanHuynhHelloWorld.csproj
+```
+├── 📁 .git/ 🚫 (auto-hidden)
+├── 📁 .github/
+│   └── 📁 workflows/
+│       ├── ⚙️ deploy-cloudflare.yml
+│       ├── ⚙️ deploy-firebase.yml
+│       └── ⚙️ deploy-render.yml
+├── 📁 backend/
+│   ├── 📁 .vs/ 🚫 (auto-hidden)
+│   ├── 📁 Controllers/
+│   │   ├── 🟣 HealthzController.cs
+│   │   └── 🟣 WeatherForecastController.cs
+│   ├── 📁 DTO/
+│   │   └── 🟣 WeatherForecast.cs
+│   ├── 📁 Properties/
+│   │   └── 📄 launchSettings.json
+│   ├── 📁 bin/ 🚫 (auto-hidden)
+│   ├── 📁 obj/ 🚫 (auto-hidden)
+│   ├── 📄 .dockerignore
+│   ├── 🚫 .gitignore
+│   ├── 🐳 Dockerfile
+│   ├── 🟣 Program.cs
+│   ├── 📄 appsettings.Development.json
+│   ├── 📄 appsettings.json
+│   ├── 🟣 backend.csproj
+│   ├── 📄 backend.csproj.user
+│   ├── 📄 backend.http
+│   └── 🟣 backend.sln
+├── 📁 frontend/
+│   ├── 📁 .firebase/
+│   │   └── 🗑️ hosting.YnVpbGQ.cache 🚫 (auto-hidden)
+│   ├── 📁 build/ 🚫 (auto-hidden)
+│   ├── 📁 node_modules/ 🚫 (auto-hidden)
+│   ├── 📁 public/
+│   │   ├── 🖼️ favicon.ico
+│   │   ├── 🌐 index.html
+│   │   ├── 🖼️ logo192.png
+│   │   ├── 🖼️ logo512.png
+│   │   ├── 📄 manifest.json
+│   │   └── 📄 robots.txt
+│   ├── 📁 src/
+│   │   ├── 🎨 App.css
+│   │   ├── 📄 App.test.ts
+│   │   ├── 📄 App.tsx
+│   │   ├── 🎨 index.css
+│   │   ├── 📄 index.tsx
+│   │   ├── 🖼️ logo.svg
+│   │   ├── 📄 reportWebVitals.ts
+│   │   └── 📄 setupTests.ts
+│   ├── 🔒 .env 🚫 (auto-hidden)
+│   ├── 📄 .env.example
+│   ├── 📄 .firebaserc
+│   ├── 🚫 .gitignore
+│   ├── 📄 .prettierignore
+│   ├── 📄 .prettierrc
+│   ├── 📄 custom.d.ts
+│   ├── 📄 firebase.json
+│   ├── 📄 package-lock.json
+│   ├── 📄 package.json
+│   └── 📄 tsconfig.json
+├── 📁 npm/
+│   └── 📁 helloworld/
+│       ├── 📖 README.md
+│       ├── 📄 index.js
+│       └── 📄 package.json
+├── 📁 nuget/
+│   └── 📁 TuanHuynhHelloWorld/
+│       ├── 📁 .vs/ 🚫 (auto-hidden)
+│       ├── 📁 bin/ 🚫 (auto-hidden)
+│       ├── 📁 obj/ 🚫 (auto-hidden)
+│       ├── 🚫 .gitignore
+│       ├── 📖 README.md
+│       ├── 🟣 TuanHuynhHelloWorld.cs
+│       └── 🟣 TuanHuynhHelloWorld.csproj
+├── 📜 LICENSE
+├── 📖 README.md
+└── 📝 SECURITY.md
 ```
