@@ -47,10 +47,10 @@ This repository is a DevOps approach project
 │   ├── 🚫 .gitignore
 │   ├── 🐳 Dockerfile
 │   ├── 🟣 Program.cs
-│   ├── 📄 appsettings.Development.json
+│   ├── 📄 appsettings.Development.json 🚫 (auto-hidden)
 │   ├── 📄 appsettings.json
 │   ├── 🟣 backend.csproj
-│   ├── 📄 backend.csproj.user
+│   ├── 📄 backend.csproj.user 🚫 (auto-hidden)
 │   ├── 📄 backend.http
 │   └── 🟣 backend.sln
 ├── 📁 frontend/
@@ -61,19 +61,12 @@ This repository is a DevOps approach project
 │   ├── 📁 public/
 │   │   ├── 🖼️ favicon.ico
 │   │   ├── 🌐 index.html
-│   │   ├── 🖼️ logo192.png
-│   │   ├── 🖼️ logo512.png
-│   │   ├── 📄 manifest.json
+│   │   ├── 🖼️ logo.svg
 │   │   └── 📄 robots.txt
 │   ├── 📁 src/
 │   │   ├── 🎨 App.css
-│   │   ├── 📄 App.test.ts
 │   │   ├── 📄 App.tsx
-│   │   ├── 🎨 index.css
-│   │   ├── 📄 index.tsx
-│   │   ├── 🖼️ logo.svg
-│   │   ├── 📄 reportWebVitals.ts
-│   │   └── 📄 setupTests.ts
+│   │   └── 📄 index.tsx
 │   ├── 🔒 .env 🚫 (auto-hidden)
 │   ├── 📄 .env.example
 │   ├── 📄 .firebaserc
